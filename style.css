@@ -77,13 +77,18 @@ a {
     width: 400px;
     margin: 100px 100px 60px 200px;
     vertical-align: middle;
+    border: rgb(245, 225, 245) solid;
+    border-radius: 8px;
     
 
 }
 
 .family p
 {
-    
+    height: 300px; 
+    width: 500px;
+    background-color: rgb(245, 225, 245);
+    border-radius: 8px;    
 }
 
 /*why garden? section*/
@@ -95,12 +100,19 @@ a {
 
 .Why img {
     float: right;
-    height: 500px;
-    width: 375px;
+    height: 400px;
+    width: 570px;
     margin: 100px 200px 60px 100px;
+    border: rgb(255, 225, 176) solid;
+    border-radius: 8px;
 }
 
 .Why p {
+    height: 450px; 
+    width: 500px;
+    background-color: rgb(255, 225, 176);
+    border-radius: 8px;
+    margin-left: 60px;
 
 }
 
@@ -116,11 +128,16 @@ a {
     height: 500px;
     width: 450px;
     margin: 100px 100px 60px 100px;
+    border: rgb(197, 209, 190) solid;
+    border-radius: 8px;
 
 }
 
 .Stl p {
-
+    height: 400px; 
+    width: 500px;
+    background-color: rgb(197, 209, 190);
+    border-radius: 8px;   
 }
 
 /*thank's for visiting banner */
