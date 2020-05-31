@@ -1,0 +1,5 @@
+ <!----Section about St. Louis-->
+            <section id = "Stl">
+                <p>Paragraph about St. Louis</p>
+                <img src="Images and Videos/Tower_Grove_East.jpg" alt="Picture of St. Louis Neighborhood" height="500" width="400"/>
+            </section>

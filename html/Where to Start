@@ -1,0 +1,16 @@
+<!--Section about our Family-->
+            <section id = "family">
+                <video width="400" height="500" controls>
+                    <source src="Images and Videos/Eloise_Walking.mov" type="video/mp4"/>
+                 Your browswer does not support the video type.       
+                </video>
+                <p>Paragraph about our family.</p>
+
+            </section>
+                
+<!--Section about Why we should garden-->  
+            <section id = "Why">
+                <img src="Images and Videos/First_Harvest.jpeg" alt="Picture of Harvest from our Garden" height="500" width="400"/>
+                <p>Paragraph about the benifits of Urban Gardening</p>
+
+            </section>
