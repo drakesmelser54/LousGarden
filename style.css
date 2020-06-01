@@ -7,12 +7,14 @@ body {
 /*links*/
 a {
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 /*top navigation*/
 .top {
     text-align: center;
-    border-bottom: rgb(192,192,192) solid;
+    
 }
 .top a {
     height: 60px;
@@ -25,34 +27,40 @@ a {
 .top ul li {
     display: inline;
     margin: 0;
-    padding: 15px;
-}
-
-/*background color block*/
-.color-block {
-   
+    padding: 20px;
 }
 /*welcome banner*/
 .welcome {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    background-image: url(Images/Wisteria.jpeg);
+    display: flex;
+    background-image: url(Images/Wisteria-Jumbotron.jpg);
     background-size: cover;
-    border: rgb(152, 189, 145) solid;
-    border-radius: 8px;
-    height: 700px;
-    width: 60%;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 100%;
+    margin-top: 0px;
+    border-top: rgb(8, 135, 38) solid;
+    border-bottom: rgb(8, 135, 38) solid;
 }
 
+.welcome .container {
+    background-color: rgba(173, 173, 173, 0.5);
+    height: 300px;
+    width: 400px;
+    
+}
+
+.welcome .border {
+    border-bottom: white solid thin;
+}
 .welcome h1
 {
     font-size: 50px;
-    font-weight: 650;
+    font-weight: 600px;
     text-align: center;
-    margin-top: 250px;
+    font-family: 'Raleway', sans-serif;
     color: white;
+    
 }
 
 .welcome h2
@@ -60,7 +68,8 @@ a {
     font-size: 30px;
     font-weight:400;
     text-align: center;
-    margin-block-end: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
     color: white;
 }
 
@@ -87,6 +96,7 @@ a {
 {
     height: 300px; 
     width: 500px;
+    font-family: 'Cormorant Garamond', serif;
     background-color: rgb(245, 225, 245);
     border-radius: 8px;    
 }
@@ -140,16 +150,21 @@ a {
     border-radius: 8px;   
 }
 
+/*entire footer*/
+footer {
+    background-color: rgb(8, 135, 38);
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
 /*thank's for visiting banner */
 .thanks {
     height: 200px;
     width: 100%;
-    background-color: rgb(252, 239, 202);
     text-align: center;
 }
 
 .thanks .message {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 /*bottom navigation*/
 .bottom {
@@ -159,12 +174,12 @@ a {
     height: 60px;
     line-height: 60px;
     text-decoration: none;
-    color: olive;
     font-size: 20px;
+    color: white;
 }
 
 .bottom ul li {
     display: inline;
     margin: 0;
-    padding: 15px;
+    padding: 20px;
 }
