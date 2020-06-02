@@ -86,43 +86,47 @@ a {
     width: 400px;
     margin: 100px 100px 60px 200px;
     vertical-align: middle;
-    border: rgb(245, 225, 245) solid;
-    border-radius: 8px;
     
 
 }
 
+.family h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
 .family p
 {
-    height: 300px; 
+    height: 250px; 
     width: 500px;
     font-family: 'Cormorant Garamond', serif;
-    background-color: rgb(245, 225, 245);
-    border-radius: 8px;    
+    
 }
 
 /*why garden? section*/
 .Why {
     display: flex;
     align-items: center;
-    justify-content: center;
+
 }
 
 .Why img {
-    float: right;
-    height: 400px;
-    width: 570px;
+   
+    height: 395px;
+    width: 600px;
     margin: 100px 200px 60px 100px;
-    border: rgb(255, 225, 176) solid;
-    border-radius: 8px;
+    
 }
 
+.Why-Text {
+    margin-left: 15%;
+}
+.Why h4 {
+    font-family: 'Raleway', sans-serif;
+}
 .Why p {
-    height: 450px; 
-    width: 500px;
-    background-color: rgb(255, 225, 176);
-    border-radius: 8px;
-    margin-left: 60px;
+    height: 575px;
+    width: 300px;
+    font-family: 'Cormorant Garamond', serif;
 
 }
 
@@ -130,24 +134,24 @@ a {
 .Stl {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
 }
 
 .Stl img {
     float: left;
     height: 500px;
     width: 450px;
-    margin: 100px 100px 60px 100px;
-    border: rgb(197, 209, 190) solid;
-    border-radius: 8px;
+    margin: 100px 100px 60px 200px;
 
 }
 
+.Stl h4 {
+    font-family: 'Raleway', sans-serif;
+}
 .Stl p {
-    height: 400px; 
+    height: 250px; 
     width: 500px;
-    background-color: rgb(197, 209, 190);
-    border-radius: 8px;   
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /*entire footer*/
