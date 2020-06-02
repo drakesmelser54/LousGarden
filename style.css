@@ -1,7 +1,6 @@
 /*body*/
 body {
     background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
 /*links*/
@@ -84,7 +83,7 @@ a {
     float: left;
     height: 550px;
     width: 400px;
-    margin: 100px 100px 60px 200px;
+    margin: 100px 100px 60px 175px;
     vertical-align: middle;
     
 
@@ -118,14 +117,14 @@ a {
 }
 
 .Why-Text {
-    margin-left: 15%;
+    margin-left: 8%;
 }
 .Why h4 {
     font-family: 'Raleway', sans-serif;
 }
 .Why p {
     height: 575px;
-    width: 300px;
+    width: 350px;
     font-family: 'Cormorant Garamond', serif;
 
 }
@@ -141,7 +140,7 @@ a {
     float: left;
     height: 500px;
     width: 450px;
-    margin: 100px 100px 60px 200px;
+    margin: 100px 100px 60px 175px;
 
 }
 
@@ -150,7 +149,7 @@ a {
 }
 .Stl p {
     height: 250px; 
-    width: 500px;
+    width: 400px;
     font-family: 'Cormorant Garamond', serif;
 }
 
