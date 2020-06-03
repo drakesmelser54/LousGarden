@@ -3,34 +3,40 @@ body {
     background-color: white;
  }
 
+
   /*headers*/
 h1 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    
 }
 
 h2 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', Times, serif;
 }
 
+
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
+
 
 /*text*/
 p {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', Times, serif;
 }
+
+
 /*links*/
 a {
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 
 }
 
 /*top navigation*/
 .top {
     text-align: center;
-    
+    margin-right: 45px;
 }
 .top a {
     height: 60px;
@@ -45,6 +51,47 @@ a {
     margin: 0;
     padding: 20px;
 }
+
+
+
+/*entire footer*/
+footer {
+    background-color: rgb(8, 135, 38);
+    color: white;
+}
+/*thank's for visiting banner */
+.thanks {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.thanks .message {
+    padding-top: 30px;
+}
+
+/*bottom navigation*/
+.bottom {
+    text-align: center;
+}
+.bottom a {
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.bottom ul li {
+    display: inline;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+/*home page*/
 /*welcome banner*/
 .welcome {
     display: flex;
@@ -91,6 +138,7 @@ a {
 .family {
   display: flex;
   align-items: center;
+  margin-top: 150px;
 }
 
 .family img
@@ -115,6 +163,7 @@ a {
 .Why {
     display: flex;
     align-items: center;
+    margin-top: 150px;
 
 }
 
@@ -129,8 +178,7 @@ a {
 .Why-Text {
     margin-left: 8%;
 }
-.Why h4 {
-}
+
 .Why p {
     height: 575px;
     width: 350px;
@@ -140,6 +188,8 @@ a {
 .Stl {
     display: flex;
     align-items: center;
+    margin-bottom: 200px;
+    margin-top: 150px;
     
 }
 
@@ -156,35 +206,84 @@ a {
     width: 400px;
 }
 
-/*entire footer*/
-footer {
-    background-color: rgb(8, 135, 38);
-    color: white;
-}
-/*thank's for visiting banner */
-.thanks {
-    height: 200px;
+
+
+
+/*Our Plants Page*/
+/*Our Plants banner*/
+.OurPlants {
+    display: flex;
+    background-image: url(Images/GardenPan.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
     width: 100%;
-    text-align: center;
+    margin-top: 0px;
+    border-top: rgb(8, 135, 38) solid;
+    border-bottom: rgb(8, 135, 38) solid;
 }
 
-.thanks .message {
-    padding-top: 30px;
+
+.OurPlants .container {
+    background-color: rgba(173, 173, 173, 0.5);
+    height: 150px;
+    width: 300px;
+    margin-right: 45px;
+    
 }
-/*bottom navigation*/
-.bottom {
+
+.OurPlants h1
+{
+    font-size: 50px;
+    font-weight: 600px;
     text-align: center;
-}
-.bottom a {
-    height: 60px;
-    line-height: 60px;
-    text-decoration: none;
-    font-size: 20px;
     color: white;
+    
 }
 
-.bottom ul li {
-    display: inline;
-    margin: 0;
-    padding: 20px;
+.CategoriesMessage {
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.CategoriesMessage h2 {
+    font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', Times, serif;
+}
+
+.CategoriesMessage p {
+    font-size: x-large;
+}
+
+
+/*Grid of Vegetable Categories*/
+.grid-container {
+  display: grid;
+  height: 800px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px;
+  justify-content: space-evenly;
+  align-content: space-between;
+  margin-bottom: 400px;
+  
+
+
+}
+
+.grid-container img {
+    height: 400px;
+    width: 300px;
+}
+
+.grid-container p {
+    height: 200px;
+    width: 300px;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 50%;
 }
