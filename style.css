@@ -52,11 +52,15 @@ a {
     padding: 20px;
 }
 
+/*top-nav with border*/
+.top-with-border {
+    border-bottom: 3px solid rgba(8, 135, 38, 0.5);
+}
 
 
 /*entire footer*/
 footer {
-    background-color: rgb(8, 135, 38);
+    background-color: rgba(8, 135, 38, 0.5);
     color: white;
 }
 /*thank's for visiting banner */
@@ -280,10 +284,59 @@ footer {
     width: 300px;
 }
 
+.grid-container h2 {
+    text-align: center;
+    
+}
 .grid-container p {
     height: 200px;
     width: 300px;
     font-size: x-large;
     text-align: center;
     margin-top: 50%;
+}
+
+
+
+
+
+/*Leafy Greens Page*/
+/*intro message*/
+.intro-leaves {
+    height: 200px;
+    width: 300px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.intro-leaves h2 {
+    border: 3px solid rgba(50, 168, 82);
+    border-radius: 8px;
+    padding: 10px;
+}
+/*Kale Section*/
+.kale {
+    display: flex;
+    flex-direction: row;
+}
+
+.kale img {
+    height: 300px;
+    width: 250px;
+    margin-left: 100px;
+    padding-right: 50px;
+    vertical-align: center;
+}
+
+.kale-description {
+    border-top: 2px black solid ;
+}
+
+.lettuce {
+
+}
+
+.lettuce img {
+    height: 300px;
+    width: 250px;
 }
