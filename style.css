@@ -323,9 +323,8 @@ footer {
 .kale img {
     height: 300px;
     width: 250px;
-    margin-left: 100px;
-    padding-right: 50px;
     vertical-align: center;
+    margin: auto 100px 100px;
 }
 
 .kale-description {
@@ -333,10 +332,22 @@ footer {
 }
 
 .lettuce {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
 
 }
 
 .lettuce img {
     height: 300px;
     width: 250px;
+    vertical-align: middle;
+    margin: auto 100px;
+}
+
+.lettuce-text {
+    text-align: right;
+}
+.lettuce-description {
+    border-top: 2px black solid ;
 }
