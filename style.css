@@ -314,40 +314,63 @@ footer {
     border-radius: 8px;
     padding: 10px;
 }
+
+/*Leaf plant container*/
+.our-leaves {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 650px 650px 650px;
+    margin-right: 200px;
+    margin-left: 200px;
+    justify-content: center;
+    align-content: center;
+    
+
+}
 /*Kale Section*/
 .kale {
-    display: flex;
-    flex-direction: row;
+  
 }
 
 .kale img {
-    height: 300px;
-    width: 250px;
-    vertical-align: center;
-    margin: auto 100px 100px;
+    height: 400px;
+    width: 533px;
+    
+}
+
+/*--------.kale-text {
+    
 }
 
 .kale-description {
     border-top: 2px black solid ;
 }
+-------------*/
 
+/*Lettuce Section*/
 .lettuce {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row-reverse;
-
+    
 }
 
 .lettuce img {
-    height: 300px;
-    width: 250px;
-    vertical-align: middle;
-    margin: auto 100px;
+    height: 400px;
+    width: 533px;
 }
 
-.lettuce-text {
-    text-align: right;
+/*collards section*/
+.collards img {
+    height: 600px;
+    width: 450px;
 }
-.lettuce-description {
-    border-top: 2px black solid ;
+
+/*spinach section*/
+.spinach img {
+    height: 400px;
+    width: 532px;
+}
+
+/*oregano section*/
+.oregano img {
+    height: 400px;
+    width: 532px;
 }
